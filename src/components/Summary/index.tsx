@@ -15,6 +15,7 @@ export function Summary() {
   //     }
   //     return acc;
   //   }, 0);
+  
 
   const summary = transactions.reduce(
     (acc, transaction) => {
